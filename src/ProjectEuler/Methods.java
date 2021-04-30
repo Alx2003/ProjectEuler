@@ -63,4 +63,25 @@ public class Methods {
         }
         return true;
     }
+
+    //determines the sum of the squares of previous numbers
+    //used in Problem 6
+    public static int sumOfSquares(int num){
+        int sumOfSquares = 0;
+        for (int i=1; i<=100; i++){
+            sumOfSquares += i*i;
+        }
+        return sumOfSquares;
+    }
+
+    //determines the square of the sums of previous numbers
+    //used in Problem 6
+    public static int squareOfSums(int num){
+        int squareOfSums = 0;
+        for (int i=1; i<=100; i++){
+            squareOfSums += i;
+        }
+        squareOfSums *= squareOfSums;
+        return squareOfSums;
+    }
 }
