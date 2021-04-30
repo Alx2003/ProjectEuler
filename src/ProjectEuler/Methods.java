@@ -28,4 +28,17 @@ public class Methods {
         return returnArray;
     }
 
+    //determines largest prime factor of a given long
+    public static long largestPrimeFactor(long number){
+        long largestPrimeFactor = number;
+
+        //finding highest factor of highest factor...
+        for (int i=2; i!= largestPrimeFactor; i++){
+            if (largestPrimeFactor%i==0){
+                largestPrimeFactor = largestPrimeFactor/i;
+            }
+        }
+        return largestPrimeFactor;
+    }
+
 }
