@@ -6,7 +6,7 @@ public class Problem1 {
     public static void main(String[] args){
         /*
          * Problem 1: Multiples of 3 and 5
-         * Solution by: Alex Lay
+         * Solution by: Alexander Lay
          * Date: April 30, 2021
          */
 
@@ -15,7 +15,7 @@ public class Problem1 {
         int limit = 1000;
         int sum = 0;
 
-        //declare methods from Methods class
+        //create methods object from Methods class
         Methods methods = new Methods();
 
         //loop through all numbers up to 1000

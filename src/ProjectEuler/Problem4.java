@@ -5,7 +5,7 @@ public class Problem4 {
     public static void main(String[] args){
         /*
          * Problem 4: Largest palindrome product
-         * Solution by: Alex Lay
+         * Solution by: Alexander Lay
          * Date: April 30, 2021
          */
 
@@ -14,7 +14,7 @@ public class Problem4 {
         int largestPalindrome = 0;
         boolean largestPalindromeFound = false;
 
-        //declare methods from Methods class
+        //create methods object from Methods class
         Methods methods = new Methods();
 
         //loop through all possible 3-digit numbers to create palindromes

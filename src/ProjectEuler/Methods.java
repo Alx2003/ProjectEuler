@@ -46,10 +46,21 @@ public class Methods {
 
     //creates a palindrome number by mirroring a given input
     //used in Problem 4
-   public static int palindromeCreator(int number){
+    public static int palindromeCreator(int number){
         int palindrome = 0;
         palindrome = Integer.valueOf(Integer.toString(number)+Integer.toString(number).charAt(2)+
                 Integer.toString(number).charAt(1)+Integer.toString(number).charAt(0));
         return palindrome;
-   }
+    }
+
+    //determines if a number is divisible by all elements of an array
+    //used in Problem 5
+    public static boolean divisibilityCheck(int number, int rangeMax){
+        for (int i=rangeMax; i>=1; i--){
+            if(number%i!=0){
+                return false;
+            }
+        }
+        return true;
+    }
 }

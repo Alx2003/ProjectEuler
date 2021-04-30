@@ -5,7 +5,7 @@ public class Problem3 {
     public static void main(String[] args){
         /*
          * Problem 3: Largest prime factor
-         * Solution by: Alex Lay
+         * Solution by: Alexander Lay
          * Date: April 30, 2021
          */
 
@@ -13,7 +13,7 @@ public class Problem3 {
         long number = 600851475143L;
         long largestPrimeFactor = number;
 
-        //declare methods from Methods class
+        //create methods object from Methods class
         Methods methods = new Methods();
 
         largestPrimeFactor = methods.largestPrimeFactor(number);

@@ -5,7 +5,7 @@ public class Problem2 {
     public static void main(String[] args){
         /*
          * Problem 2: Even Fibonacci numbers
-         * Solution by: Alex Lay
+         * Solution by: Alexander Lay
          * Date: April 30, 2021
          */
 
@@ -14,7 +14,7 @@ public class Problem2 {
         int limit = 4000000;
         int[] methodArray = {0, 1, sumOfEvenNums};
 
-        //declare methods from Methods class
+        //create methods object from Methods class
         Methods methods = new Methods();
 
         //loop through numbers that are less than 4000000
